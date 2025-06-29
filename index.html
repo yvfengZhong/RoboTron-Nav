@@ -168,12 +168,31 @@
     <div class="columns is-centered">
       <div class="column is-full">
         <div class="content">
-          <h2 class="title is-3">Learning within Model Trees</h2>
+          <h2 class="title is-3">Pipeline</h2>
          <p>
               <img src="static/images/pipeline.pdf" alt="P3Nav's pipeline" class="blend-img-background center-image" style="max-width: 100%; height: auto;">
             </p>
             <p>
               In language-guided visual navigation, agents locate target objects in unseen environments using natural language instructions. For reliable navigation in unfamiliar scenes, agents must possess strong perception, planning, and prediction capabilities. Additionally, when agents revisit previously explored areas during long-term navigation, they may retain irrelevant and redundant historical perceptions, leading to suboptimal results. In this work, we introduce P3Nav, a unified framework that integrates Perception, Planning, and Prediction capabilities through Multitask Collaboration on navigation and embodied question answering (EQA) tasks, thereby enhancing navigation performance. Furthermore, P3Nav employs an Adaptive 3D-aware History Sampling strategy to effectively and efficiently utilize historical observations. By leveraging the large language models (LLM), P3Nav comprehends diverse commands and complex visual scenes, resulting in appropriate navigation actions. P3Nav achieves a 75% success rate in object goal navigation on the CHORES-S benchmark, setting a new state-of-the-art performance.
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Results</h2>
+         <p>
+              <img src="static/images/results.pdf" alt="P3Nav's results" class="blend-img-background center-image" style="max-width: 100%; height: auto;">
+            </p>
+            <p>
+              Left: Both P3Nav and SPOC generate the shortest path when the agent is near the target (e.g., in the same room). Right: In contrast, SPOC fails due to repeatedly searching along the same paths when distant from the target (e.g., in different rooms), whereas P3Nav succeeds by effectively avoiding revisiting areas and exploring new ones.
             </p>
         </div>
       </div>
